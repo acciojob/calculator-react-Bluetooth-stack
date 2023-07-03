@@ -29,7 +29,7 @@ const App = () => {
                 <button onClick={(e)=>{handleClick(e)}} id="btn-7">7</button>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-8">8</button>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-9">9</button>
-                <button onClick={(e)=>{handleClick(e)}} id="btn-+">+</button>
+                <button onClick={(e)=>{handleClick(e)}} id="plus">+</button>
             </div>
             <div>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-4">4</button>
@@ -40,7 +40,7 @@ const App = () => {
                 <button onClick={(e)=>{handleClick(e)}} id="btn-1">1</button>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-2">2</button>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-3">3</button>
-                <button onClick={(e)=>{handleClick(e)}} id="btn-=">=</button>
+                <button onClick={(e)=>{handleClick(e)}} id="equal">=</button>
             </div>
             <div>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-0">0</button>
