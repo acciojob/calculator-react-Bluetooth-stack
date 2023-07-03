@@ -18,7 +18,7 @@ const App = () => {
 
     return (
         <div className="Calculator">
-            <input id="calci" type="text" disabled value={input}></input>
+            <input id="calci" type="text" value={input} onChange={(e)=>setInput(e.target.value)}></input>
             <div>
                 <button onClick={(e)=>{handleClick(e)}} >C</button>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-/">/</button>
