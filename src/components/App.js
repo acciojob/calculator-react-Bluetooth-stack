@@ -18,9 +18,9 @@ const App = () => {
 
     return (
         <div className="Calculator">
-            <input type="text" disabled value={input}></input>
+            <input id="calci" type="text" disabled value={input}></input>
             <div>
-                <button onClick={(e)=>{handleClick(e)}} id="calci">C</button>
+                <button onClick={(e)=>{handleClick(e)}} >C</button>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-/">/</button>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-*">*</button>
                 <button onClick={(e)=>{handleClick(e)}} id="btn--">-</button>
