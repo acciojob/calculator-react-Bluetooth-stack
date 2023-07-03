@@ -21,15 +21,15 @@ const App = () => {
             <input type="text" disabled value={input}></input>
             <div>
                 <button onClick={(e)=>{handleClick(e)}}>C</button>
-                <button onClick={(e)=>{handleClick(e)}}>/</button>
-                <button onClick={(e)=>{handleClick(e)}}>*</button>
-                <button onClick={(e)=>{handleClick(e)}}>-</button>
+                <button onClick={(e)=>{handleClick(e)}} id="btn-/">/</button>
+                <button onClick={(e)=>{handleClick(e)}} id="btn-*">*</button>
+                <button onClick={(e)=>{handleClick(e)}} id="btn--">-</button>
             </div>
             <div>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-7">7</button>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-8">8</button>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-9">9</button>
-                <button onClick={(e)=>{handleClick(e)}}>+</button>
+                <button onClick={(e)=>{handleClick(e)}} id="btn-+">+</button>
             </div>
             <div>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-4">4</button>
@@ -40,12 +40,12 @@ const App = () => {
                 <button onClick={(e)=>{handleClick(e)}} id="btn-1">1</button>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-2">2</button>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-3">3</button>
-                <button onClick={(e)=>{handleClick(e)}}>=</button>
+                <button onClick={(e)=>{handleClick(e)}} id="btn-=">=</button>
             </div>
             <div>
                 <button onClick={(e)=>{handleClick(e)}} id="btn-0">0</button>
-                <button onClick={(e)=>{handleClick(e)}}>.</button>
-                <button></button>
+                <button onClick={(e)=>{handleClick(e)}} id="btn-.">.</button>
+                <button id="btn-div"></button>
             </div>
         </div>
     )
